@@ -1,0 +1,68 @@
+
+html{
+    color: black;
+}
+main{
+    width: 30%;
+    margin: auto;
+    background-color: rgb(242, 242, 242);
+    border-left: 50px solid rgb(242, 242, 242);
+    border-right: 50px solid rgb(242, 242, 242);
+    border-top: 30px solid rgb(242, 242, 242);
+    border-bottom: 30px solid rgb(242, 242, 242);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: rgb(191, 0, 0);
+    margin: 10px;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+}
+header{
+    background-color: rgb(124, 134, 191);
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+}
+nav{
+    width: 100%;
+    text-align: center;
+}
+article{
+    background-color: rgb(124, 191, 137);
+    height: 60px;
+    text-align: center;
+    margin: 10px;
+}
+.figures{
+    display: grid;
+    margin: 20px 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+figure{
+    height: 200px;
+    width: 100%;
+    margin: 0;
+}
+figure:first-child{
+    background-color: rgb(185, 0, 191);
+}
+figure:nth-child(2){
+    background-color: rgb(188, 191, 0);
+}
+figure:last-child{
+    background-color: rgb(191, 113, 113);
+}
+footer{
+    background-color: rgb(145, 187, 191);
+    margin: 20px 10px 0 10px;
+    height: 30px;
+    text-align: center;
+    clear: both;
+}

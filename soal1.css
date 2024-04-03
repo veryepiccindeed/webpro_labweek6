@@ -1,0 +1,60 @@
+html{
+    color: white;
+}
+main{
+    width: 40%;
+    margin: auto;
+    border: 3px solid rgb(158, 158, 158);
+    background-color: rgb(230, 230, 230);
+}
+header{
+    background-color: purple;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+    border: 3px solid rgb(158, 158, 158);
+}
+nav{
+    background-color: red;
+    margin: 5px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid rgb(158, 158, 158);
+}
+section{
+    float: left;
+    background-color: green;
+    width: 47%;
+    margin: 5px;
+    height: 200px;
+    text-align: center;
+    border: 3px solid rgb(158, 158, 158);
+}
+article{
+    color: black;
+    float: left;
+    background-color: yellow;
+    margin: 5px;
+    width: 47%;
+    height: 200px;
+    text-align: center;
+    border: 3px solid rgb(158, 158, 158);
+}
+aside{
+    float: right;
+    background-color: blue;
+    width: 47%;
+    margin: 5px;
+    height: 416px;
+    text-align: center;
+    border: 3px solid rgb(158, 158, 158);
+}
+footer{
+    background-color: orange;
+    margin: 5px;
+    height: 80px;
+    text-align: center;
+    clear: both;
+    border: 3px solid rgb(158, 158, 158);
+}
